@@ -8,7 +8,7 @@ ATTENTION: Le script supprime le .vimrc courant donc faites une sauvegarde au ca
 
 L'installation se fait en quelques étapes :
 
-    - clone le répertoire
+    - cloner le répertoire
 
     - lancer le scripte
 
