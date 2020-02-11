@@ -1,17 +1,15 @@
 # Vimrc
 
-Ceci est mon vimrc avec lequel j'ai munie un programme shell qui installe la
-configuration automatiquement.
+Ceci est mon vimrc avec lequel j'ai munie un programme shell qui installe les prérequis du vimrc configuration automatiquement.
 
 
-ATTENTION: le script supprime le .vimrc courrant donc faites une sauvegarde au
-cas ou vous voulez le récupérer.
+ATTENTION: Le script supprime le .vimrc courant donc faites une sauvegarde au cas où vous voulez le récupérer.
 
 
-L'installation se fait en quelque étapes:
-    
+L'installation se fait en quelques étapes :
+
     - clone le répertoire
-    
-    - lancer le scipte
-    
+
+    - lancer le scripte
+
     - ouvrir vim et taper ":PluginInstall"
