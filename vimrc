@@ -122,6 +122,7 @@ Plugin 'sheerun/vim-polyglot'
 Plugin 'preservim/nerdcommenter'
 Plugin 'delimitMate.vim'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'flazz/vim-colorschemes'
 call vundle#end()
 filetype plugin indent on
 
@@ -132,5 +133,8 @@ let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
 
-"NERDCOMMENTER"
+"NERDCOMMENTER
 let g:NERDCustomDelimiters = { 'c': { 'left': '//' } }
+
+"ALE
+let g:ale_linters = {'cpp' : ['clang', 'gcc', 'cppcheck', 'cpplint']}
