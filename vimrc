@@ -121,6 +121,7 @@ Plugin 'dense-analysis/ale'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'preservim/nerdcommenter'
 Plugin 'delimitMate.vim'
+Plugin 'terryma/vim-multiple-cursors'
 call vundle#end()
 filetype plugin indent on
 
